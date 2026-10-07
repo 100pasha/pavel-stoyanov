@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Павел Стоянов — стратегическое управление и OKR</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,500&amp;family=Golos+Text:wght@400;500;600;700&amp;display=swap">
+<style>
+  :root{
+    --ink:#1C1E1A;
+    --ink-soft:#4B5047;
+    --paper:#F2F1EA;
+    --paper-raised:#E9E7DC;
+    --line:#D4D1C3;
+    --brass:#8C5E1F;
+    --brass-deep:#6E4A18;
+    --teal:#1E5F56;
+    --teal-deep:#163F39;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:'Golos Text',system-ui,sans-serif;}
+  h1,h2,h3,.serif{font-family:'Spectral',Georgia,serif;}
+  a{color:inherit;text-decoration:none;}
+  a.under{border-bottom:1px solid var(--line);}
+  a.under:hover{border-color:var(--ink);}
+  .wrap{max-width:1180px;margin:0 auto;padding-inline:32px;}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:14px 26px;font-size:15px;font-weight:600;border-radius:2px;border:1px solid var(--ink);}
+  .btn-solid{background:var(--ink);color:var(--paper);}
+  .btn-solid:hover{background:var(--brass-deep);border-color:var(--brass-deep);}
+  .btn-line{background:transparent;color:var(--ink);}
+  .btn-line:hover{border-color:var(--brass-deep);color:var(--brass-deep);}
+  .kicker{font-size:14px;color:var(--brass-deep);font-weight:600;margin-bottom:10px;}
+  .rule{height:1px;background:var(--line);border:none;margin:0;}
+  section{padding-block:72px;}
+  @media (max-width:720px){section{padding-block:48px;} .wrap{padding-inline:20px;} .formats-grid{grid-template-columns:1fr !important;}}
+</style>
+
+</head>
+<body>
+<div style="width:100%;">
+
+  <!-- NAV -->
+  <nav style="position:sticky;top:0;z-index:20;background:rgba(242,241,234,0.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);">
+    <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;height:68px;flex-wrap:wrap;gap:12px;">
+      <a href="#top" style="font-family:'Spectral',serif;font-weight:600;font-size:19px;letter-spacing:0.01em;">Павел Стоянов</a>
+      <div style="display:flex;align-items:center;gap:28px;font-size:14.5px;flex-wrap:wrap;"><a class="under" href="#about">Обо мне</a>
+        <a class="under" href="#formats">Услуги</a>
+        <a class="under" href="#cases">Кейсы</a>
+        <a class="under" href="#articles">Статьи</a>
+        <a class="under" href="#contact">Контакты</a>
+        <a href="https://t.me/Pavel_Stoyanov" class="btn btn-solid" style="padding: 9px 18px; font-size: 13.5px">Написать</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="top" style="padding-top: 88px; position: relative">
+    <div class="wrap" style="display:flex;gap:56px;flex-wrap:wrap;align-items:flex-start;">
+      <div style="flex:1 1 560px;min-width:0;">
+        <div style="font-size:15px;color:var(--ink-soft);margin-bottom:18px;">Т-Банк, 7 лет — амбассадор стратегического управления и OKR. Сейчас — консультант и спикер.</div>
+        <h1 class="serif" style="font-size:56px;line-height:1.08;margin:0 0 22px;font-weight:600;">Превращаю&nbsp;стратегию ТОПов в&nbsp;результат&nbsp;команды</h1>
+        <p style="font-size:17.5px;line-height:1.6;color:var(--ink-soft);max-width:560px;margin:0 0 32px;">Помогаю руководителям и собственникам формулировать цели и стратегию для их достижения, доводить все это до сотрудников и делать так, чтобы цели были достигнуты.</p>
+        <div style="display:flex;gap:14px;flex-wrap:wrap;">
+          <a href="https://t.me/Pavel_Stoyanov" class="btn btn-solid">Пригласить выступить</a>
+          <a href="#cases" class="btn btn-line">Смотреть кейсы</a>
+        </div>
+      </div>
+      <div style="flex:0 0 300px;width:300px;height:360px;border:1px solid var(--line);overflow:hidden;">
+        <img src="images/pavel.jpg" alt="Павел Стоянов" style="width:100%;height:100%;object-fit:cover;display:block;">
+      </div>
+    </div>
+
+    <div class="wrap" style="margin-top:64px;">
+      <hr class="rule">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(220px, 100%), 1fr));gap:0;">
+        <div style="padding:26px 24px 26px 0;border-right:1px solid var(--line);">
+          <div class="serif" style="font-size:30px;font-weight:600;">7 лет</div>
+          <div style="font-size:14px;color:var(--ink-soft);margin-top:4px;">в Т-Банке — от запуска fintech-продуктов до амбассадора стратегии</div>
+        </div>
+        <div style="padding:26px 24px;border-right:1px solid var(--line);">
+          <div class="serif" style="font-size:30px;font-weight:600;">50+</div>
+          <div style="font-size:14px;color:var(--ink-soft);margin-top:4px;">продуктов синхронизировано благодаря созданию общей стратегии</div>
+        </div>
+        <div style="padding:26px 24px;border-right:1px solid var(--line);">
+          <div class="serif" style="font-size:30px;font-weight:600;">30+</div>
+          <div style="font-size:14px;color:var(--ink-soft);margin-top:4px;">проведённых стратегических сессий</div>
+        </div>
+        <div style="padding:26px 0 26px 24px;">
+          <div class="serif" style="font-size:30px;font-weight:600;">№1</div>
+          <div style="font-size:14px;color:var(--ink-soft);margin-top:4px;">бренд ноутбуков в России</div>
+        </div>
+      </div>
+      <hr class="rule">
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap" style="display:flex;gap:64px;flex-wrap:wrap;">
+      <div style="flex:1 1 320px;min-width:260px;">
+        <div class="kicker">Кто я</div>
+        <h2 class="serif" style="font-size:32px;line-height:1.2;margin:0;font-weight:600;max-width:360px;">От аналитика до амбассадора стратегии на 2000+ человек</h2>
+      </div>
+      <div style="flex:1 1 480px;min-width:280px;">
+        <p style="font-size:16.5px;line-height:1.7;margin:0 0 20px;">Начинал в Сбербанк CIB coverage-аналитиком по кредитованию крупного бизнеса — изнутри изучил работу российского банкинга и работу крупнейшей корпорации.&nbsp;</p>
+        <p style="font-size:16.5px;line-height:1.7;margin:0 0 20px;">За семь лет в Т-Банке прошли в три этапа: от запуска продуктов (банковские гарантии, электронная подпись, поисковик госзакупок) до руководства направлением B2B по счетам, платежам и тарифам, где возглавлял команду 100+ человек. После понял, что точки роста такого крупного бизнеса не в конкретном продукте, а в синергии сотен команд разработки. Так я стал амбассадором стратегического управления и OKR в компании. Под моим руководством была сформирована стратегия B2B-направления и синхронизированы 50+ продуктов.</p>
+        <p style="font-size:16.5px;line-height:1.7;margin:0;">Два года вёл собственный бизнес по производству ноутбуков и на практике соединил тактическое управление со стратегическим — не как консультант со стороны, а изнутри. Бренд вышел в №1 по продажам среди российских производителей, а в 2025 году вырос до 1,5 млрд. руб. оборота.</p>
+      </div>
+    </div>
+
+    <div class="wrap" style="margin-top:56px;">
+      <hr class="rule" style="margin-bottom:0;">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(300px, 100%), 1fr));">
+        <div style="padding:28px 28px 28px 0;border-right:1px solid var(--line);border-bottom:1px solid var(--line);">
+          <div style="font-size:13px;color:var(--brass-deep);font-weight:600;margin-bottom:6px;">01 — Сбербанк CIB, 2 года</div>
+          <div style="font-size:15px;line-height:1.55;">Coverage-аналитик. 7 сделок на 50+ млрд руб., годовое планирование отдела.</div>
+        </div>
+        <div style="padding:28px 28px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);">
+          <div style="font-size:13px;color:var(--brass-deep);font-weight:600;margin-bottom:6px;">02 — Т-Банк, 7 лет</div>
+          <div style="font-size:15px;line-height:1.55;">Запуск продуктов → руководитель B2B → амбассадор стратегии и OKR.</div>
+        </div>
+        <div style="padding:28px 0 28px 28px;border-bottom:1px solid var(--line);">
+          <div style="font-size:13px;color:var(--brass-deep);font-weight:600;margin-bottom:6px;">03 — Свой бизнес, 2 года</div>
+          <div style="font-size:15px;line-height:1.55;">№1 бренд ноутбуков среди российских; выручка +1.5× за год.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMATS -->
+  <section id="formats" style="background:var(--paper-raised);border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+    <div class="wrap">
+      <div class="kicker">Чем могу быть полезен</div>
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:40px;">
+        <h2 class="serif" style="font-size:32px;margin:0;font-weight:600;max-width:560px;">Четыре формата работы с руководителями и командами</h2>
+        <a href="https://t.me/Pavel_Stoyanov" class="btn btn-solid" style="flex:0 0 auto;">Обсудить задачу</a>
+      </div>
+
+      <div class="formats-grid" style="display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:20px;">
+        <a href="https://t.me/Pavel_Stoyanov" style="display:block;padding:28px;background:var(--paper);border:1px solid var(--line);">
+          <div style="font-size:13px;color:var(--brass-deep);font-weight:600;margin-bottom:8px;">Выступление</div>
+          <h3 class="serif" style="font-size:19px;margin:0 0 10px;font-weight:600;line-height:1.3;">Выступление о стратегическом управлении и OKR на конференции или стратсессии</h3>
+          <p style="font-size:14.5px;line-height:1.6;color:var(--ink-soft);margin:0 0 14px;">Презентация для управленческой аудитории: стратегия, тактика, OKR, команда. 30–90 минут, офлайн или онлайн.</p>
+          <div style="font-size:13px;color:var(--ink-soft);">Конференции · корпоративные университеты · стратсессии</div>
+        </a>
+        <a href="https://t.me/Pavel_Stoyanov" style="display:block;padding:28px;background:var(--paper);border:1px solid var(--line);">
+          <div style="font-size:13px;color:var(--brass-deep);font-weight:600;margin-bottom:8px;">Менторинг</div>
+          <h3 class="serif" style="font-size:19px;margin:0 0 10px;font-weight:600;line-height:1.3;">Менторинг для первого лица</h3>
+          <p style="font-size:14.5px;line-height:1.6;color:var(--ink-soft);margin:0 0 14px;">Индивидуальная работа с СЕО, собственником или членом правления: цели и стратегия компании, личная стратегия, роль, решения, переходы. Опыт крупнейших компаний и честное мнение, а не только вопросы. Цикл из 6-12 встреч.</p>
+          <div style="font-size:13px;color:var(--ink-soft);">Первые лица • работа с топ-командами</div>
+        </a>
+        <a href="https://t.me/Pavel_Stoyanov" style="display:block;padding:28px;background:var(--paper);border:1px solid var(--line);">
+          <div style="font-size:13px;color:var(--brass-deep);font-weight:600;margin-bottom:8px;">Программа</div>
+          <h3 class="serif" style="font-size:19px;margin:0 0 10px;font-weight:600;line-height:1.3;">Программа развития стратегического мышления для компании</h3>
+          <p style="font-size:14.5px;line-height:1.6;color:var(--ink-soft);margin:0 0 14px;">Курс для руководителей среднего звена — от одного модуля до двухмесячного цикла. Строится вокруг разбора целей компании и реальных кейсов участников.</p>
+          <div style="font-size:13px;color:var(--ink-soft);">Группа 10-30 человек · кадровый резерв · ТОП-команды&nbsp;&nbsp;· руководители</div>
+        </a>
+        <a href="https://t.me/Pavel_Stoyanov" style="display:block;padding:28px;background:var(--paper);border:1px solid var(--line);">
+          <div style="font-size:13px;color:var(--brass-deep);font-weight:600;margin-bottom:8px;">Сессия</div>
+          <h3 class="serif" style="font-size:19px;margin:0 0 10px;font-weight:600;line-height:1.3;">Стратегическая сессия и работа с топ-командой</h3>
+          <p style="font-size:14.5px;line-height:1.6;color:var(--ink-soft);margin:0 0 14px;">Фасилитация сессии управленческой команды: смысл бизнеса, стратегия, роли и договорённости. Один-два дня, с деловыми играми и структурированной рефлексией. Advisory для советов директоров.</p>
+          <div style="font-size:13px;color:var(--ink-soft);">Собственники • правления • советы директоров</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASES -->
+  <section id="cases">
+    <div class="wrap">
+      <div class="kicker">Кейсы</div>
+      <h2 class="serif" style="font-size:32px;margin:0 0 40px;font-weight:600;max-width:640px;">Результаты, которые можно проверить</h2>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(420px, 100%), 1fr));gap:48px;">
+        <div>
+          <div style="font-size:13px;color:var(--teal-deep);font-weight:600;margin-bottom:8px;">Т-Бизнес (Т-Банк)</div>
+          <h3 class="serif" style="font-size:21px;margin:0 0 12px;font-weight:600;">40 продуктовых команд, одна общая стратегия</h3>
+          <p style="font-size:15px;line-height:1.65;color:var(--ink-soft);margin:0 0 14px;">
+            Сильные продуктовые команды максимизировали успех своих продуктов, а не результат направления в целом — цели ТОПов не доходили до исполнения.
+          </p>
+          <p style="font-size:15px;line-height:1.65;margin:0 0 16px;font-weight:600;">
+            Результат: 40 продуктовых команд синхронизированы с общими целями, 2 000 сотрудников вовлечены в регулярный разбор стратегии.
+          </p>
+          <a class="under" href="case-tbusiness.html" style="font-size:14px;">Читать кейс подробно →</a>
+        </div>
+        <div>
+          <div style="font-size:13px;color:var(--teal-deep);font-weight:600;margin-bottom:8px;">Group-IB</div>
+          <h3 class="serif" style="font-size:21px;margin:0 0 12px;font-weight:600;">От 10 несогласных акционеров — к одной стратегии</h3>
+          <p style="font-size:15px;line-height:1.65;color:var(--ink-soft);margin:0 0 14px;">
+            10 акционеров не могли прийти к единому стратегическому решению; собственник ставил задачи, а не цели — команда не понимала, на что работает.
+          </p>
+          <p style="font-size:15px;line-height:1.65;margin:0 0 16px;font-weight:600;">
+            Результат: команда из 400 человек заряжена на выполнение стратегии собственника — 2 из 6 стратегических годовых целей достигнуты за первый квартал трекинга.
+          </p>
+          <a class="under" href="case-groupib.html" style="font-size:14px;">Читать кейс подробно →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHANNEL -->
+  <section style="background:var(--ink);color:var(--paper);">
+    <div class="wrap" style="display:flex;gap:40px;flex-wrap:wrap;align-items:center;justify-content:space-between;">
+      <div style="flex:1 1 420px;min-width:260px;">
+        <div class="kicker" style="color:#C99A54;">Телеграм-канал</div>
+        <h2 class="serif" style="font-size:28px;margin:0 0 12px;font-weight:600;">«OKR Стоянов» — самый популярный канал об OKR в индустрии</h2>
+        <p style="font-size:15.5px;line-height:1.6;color:#C9C7BC;margin:0;max-width:520px;">Разборы целеполагания, трекинга и стратегического управления на реальных примерах из практики.</p>
+      </div>
+      <a href="https://t.me/okr_stoyanov" class="btn" style="border-color:var(--paper);color:var(--paper);">Читать канал →</a>
+    </div>
+  </section>
+
+  <!-- ARTICLES & SPEAKING -->
+  <section id="articles">
+    <div class="wrap">
+      <div class="kicker">Почитать</div>
+      <h2 class="serif" style="font-size:32px;margin:0 0 36px;font-weight:600;max-width:640px;">Статьи о целеполагании и OKR</h2>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(300px, 100%), 1fr));gap:0;border-top:1px solid var(--line);">
+        <a class="under" href="https://vc.ru/life/823689-pochemu-vashi-celi-ne-rabotayut-top-3-oshibki-celepolaganiya" style="display:block;padding:20px 24px 20px 0;border-right:1px solid var(--line);border-bottom:1px solid var(--line);">
+          <div style="font-size:12.5px;color:var(--brass-deep);margin-bottom:6px;">VC.RU</div>
+          <div style="font-size:15.5px;line-height:1.45;font-weight:500;">Почему ваши цели не работают: топ-3 ошибки целеполагания</div>
+        </a>
+        <a class="under" href="https://vc.ru/life/765179-5-etapov-razvitiya-celei-v-kompanii-zachem-prokachivat-myshcu-celepolaganiya" style="display:block;padding:20px 24px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);">
+          <div style="font-size:12.5px;color:var(--brass-deep);margin-bottom:6px;">VC.RU</div>
+          <div style="font-size:15.5px;line-height:1.45;font-weight:500;">5 этапов развития целей в компании</div>
+        </a>
+        <a class="under" href="https://vc.ru/life/640485-postavil-okr-a-chto-dalshe-ili-kak-provesti-monitoring-na-12-komand" style="display:block;padding:20px 0 20px 24px;border-bottom:1px solid var(--line);">
+          <div style="font-size:12.5px;color:var(--brass-deep);margin-bottom:6px;">VC.RU</div>
+          <div style="font-size:15.5px;line-height:1.45;font-weight:500;">Поставил OKR — а что дальше? Как провести мониторинг на 12 команд</div>
+        </a>
+        <a class="under" href="https://secrets.tinkoff.ru/razvitie/motivaciya-sotrudnikov/" style="display:block;padding:20px 24px 20px 0;border-right:1px solid var(--line);">
+          <div style="font-size:12.5px;color:var(--teal-deep);margin-bottom:6px;">БИЗНЕС-СЕКРЕТЫ</div>
+          <div style="font-size:15.5px;line-height:1.45;font-weight:500;">Мотивация персонала</div>
+        </a>
+        <a class="under" href="https://secrets.tinkoff.ru/razvitie/stili-upravleniya/" style="display:block;padding:20px 24px;border-right:1px solid var(--line);">
+          <div style="font-size:12.5px;color:var(--teal-deep);margin-bottom:6px;">БИЗНЕС-СЕКРЕТЫ</div>
+          <div style="font-size:15.5px;line-height:1.45;font-weight:500;">Стили руководства</div>
+        </a>
+        <a class="under" href="https://secrets.tinkoff.ru/razvitie/delegirovanie/" style="display:block;padding:20px 0 20px 24px;">
+          <div style="font-size:12.5px;color:var(--teal-deep);margin-bottom:6px;">БИЗНЕС-СЕКРЕТЫ</div>
+          <div style="font-size:15.5px;line-height:1.45;font-weight:500;">Делегирование полномочий</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPEAKING -->
+  <section style="border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--paper-raised);">
+    <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;">
+      <div>
+        <div class="kicker">Посмотреть</div>
+        <h2 class="serif" style="font-size:26px;margin:0;font-weight:600;">Запись выступления на YouTube</h2>
+      </div>
+      <a href="https://youtu.be/Q9FkLHV1h2c" class="btn btn-line">Смотреть →</a>
+    </div>
+  </section>
+
+  <!-- CLIENTS -->
+  <section style="border-bottom:1px solid var(--line);">
+    <div class="wrap">
+      <div style="font-size:14px;color:var(--ink-soft);margin-bottom:20px;">Работал с</div>
+      <div style="display:flex;flex-wrap:wrap;gap:16px 36px;font-family:'Spectral',serif;font-size:19px;color:var(--ink-soft);">
+        <span>Т-Банк</span><span>Сбербанк</span><span>Group-IB</span><span>Озон</span><span>Борисхофф</span><span>Uplab</span><span>Некко</span><span>Synaps studio</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <div class="wrap">
+      <div class="kicker">Коротко о главном</div>
+      <h2 class="serif" style="font-size:32px;margin:0 0 36px;font-weight:600;">Вопросы и ответы</h2>
+
+      <div style="display:flex;flex-direction:column;">
+        <div style="padding:22px 0;border-top:1px solid var(--line);">
+          <div style="font-weight:600;font-size:16px;margin-bottom:8px;">Кто такой Павел Стоянов?</div>
+          <div style="font-size:15px;line-height:1.6;color:var(--ink-soft);max-width:720px;">Консультант и спикер по стратегическому управлению и OKR. Прошёл путь от аналитика Сбербанк CIB до амбассадора стратегического управления в Т-Банке, затем вёл собственный бизнес и теперь помогает руководителям и командам превращать стратегию в результат.</div>
+        </div>
+        <div style="padding:22px 0;border-top:1px solid var(--line);">
+          <div style="font-weight:600;font-size:16px;margin-bottom:8px;">Чем занимается?</div>
+          <div style="font-size:15px;line-height:1.6;color:var(--ink-soft);max-width:720px;">Выступает с лекциями о стратегическом и тактическом управлении, ведёт тренинги и программы по OKR и постановке целей, сопровождает команды трекингом исполнения стратегии, ведёт телеграм-канал об OKR.</div>
+        </div>
+        <div style="padding:22px 0;border-top:1px solid var(--line);">
+          <div style="font-weight:600;font-size:16px;margin-bottom:8px;">Как пригласить выступить?</div>
+          <div style="font-size:15px;line-height:1.6;color:var(--ink-soft);max-width:720px;">Напишите в Телеграм <a class="under" href="https://t.me/Pavel_Stoyanov">@Pavel_Stoyanov</a>: тема события, аудитория, дата, формат и продолжительность.</div>
+        </div>
+        <div style="padding:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+          <div style="font-weight:600;font-size:16px;margin-bottom:8px;">С какими компаниями уже была работа?</div>
+          <div style="font-size:15px;line-height:1.6;color:var(--ink-soft);max-width:720px;">Т-Банк (внутренняя трансформация B2B-направления), Group-IB (внедрение стратегии для команды из 400 человек), а также Озон, Борисхофф, Uplab, Некко, Synaps studio.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section style="border-top:1px solid var(--line);">
+    <div class="wrap">
+      <div class="kicker">Образование</div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(min(240px, 100%), 1fr));gap:0;border-top:1px solid var(--line);">
+        <div style="padding:22px 24px 22px 0;border-right:1px solid var(--line);">
+          <div style="font-size:13px;color:var(--brass-deep);font-weight:600;margin-bottom:4px;">2009–2015</div>
+          <div style="font-size:15px;">МГТУ им. Баумана</div>
+        </div>
+        <div style="padding:22px 24px;border-right:1px solid var(--line);">
+          <div style="font-size:13px;color:var(--brass-deep);font-weight:600;margin-bottom:4px;">2014</div>
+          <div style="font-size:15px;">Europe Entrepreneurship School</div>
+        </div>
+        <div style="padding:22px 24px;border-right:1px solid var(--line);">
+          <div style="font-size:13px;color:var(--brass-deep);font-weight:600;margin-bottom:4px;">2022</div>
+          <div style="font-size:15px;">OKR Coach</div>
+        </div>
+        <div style="padding:22px 0 22px 24px;">
+          <div style="font-size:13px;color:var(--brass-deep);font-weight:600;margin-bottom:4px;">2025</div>
+          <div style="font-size:15px;">Академия Стратег</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
+  <section id="contact" style="padding-bottom:64px;">
+    <div class="wrap">
+      <div class="kicker">Контакты</div>
+      <h2 class="serif" style="font-size:30px;margin:0 0 28px;font-weight:600;">Написать — отвечу в течение дня</h2>
+      <div style="display:flex;gap:48px;flex-wrap:wrap;font-size:16px;margin-bottom:56px;">
+        <a class="under" href="https://t.me/Pavel_Stoyanov">Телеграм: @Pavel_Stoyanov</a>
+        <a class="under" href="https://t.me/okr_stoyanov">Канал: t.me/okr_stoyanov</a>
+        <span>+7 (916) 616-66-71</span>
+      </div>
+      <hr class="rule">
+      <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;padding-top:24px;font-size:13px;color:var(--ink-soft);">
+        <span>© Павел Стоянов, 2026</span>
+        <a class="under" href="privacy.html">Политика конфиденциальности</a>
+        <span>Выступление · Менторинг · Программа · Сессия</span>
+      </div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
