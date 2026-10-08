@@ -32,7 +32,10 @@
   .kicker{font-size:14px;color:var(--teal-deep);font-weight:600;margin-bottom:10px;}
   .rule{height:1px;background:var(--line);border:none;margin:0;}
   section{padding-block:56px;}
-  @media (max-width:720px){section{padding-block:36px;} .wrap{padding-inline:20px;}}
+  html{-webkit-text-size-adjust:100%;}
+  body{overflow-wrap:break-word;}
+  img{max-width:100%;}
+  @media (max-width:720px){section{padding-block:36px;} .wrap{padding-inline:20px;} .case-title{font-size:30px !important;} .cal-box{padding:24px 18px !important;}}
 </style>
 
 <!-- Yandex.Metrika counter -->
@@ -63,7 +66,7 @@
   <section style="padding-top:64px;padding-bottom:32px;">
     <div class="wrap">
       <div class="kicker">Кейс</div>
-      <h1 class="serif" style="font-size:40px;line-height:1.15;margin:0 0 16px;font-weight:600;">Group-IB: от 10 несогласных акционеров — к одной стратегии</h1>
+      <h1 class="serif case-title" style="font-size:40px;line-height:1.15;margin:0 0 16px;font-weight:600;">Group-IB: от 10 несогласных акционеров — к одной стратегии</h1>
       <p style="font-size:17px;line-height:1.6;color:var(--ink-soft);margin:0;">Команда ~400 человек. Формат — стратегическая сессия и квартальный трекинг.</p>
     </div>
   </section>
@@ -82,7 +85,7 @@
       </p>
       <hr class="rule" style="margin:32px 0;">
 
-      <div style="background:var(--paper-raised);border:1px solid var(--line);padding:36px 40px;margin-bottom:32px;">
+      <div class="cal-box" style="background:var(--paper-raised);border:1px solid var(--line);padding:36px 40px;margin-bottom:32px;">
         <div class="kicker" style="margin-bottom:24px;">Календарь активностей</div>
         <div style="display:flex;flex-direction:column;">
 
